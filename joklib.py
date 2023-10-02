@@ -33,9 +33,6 @@ def verif_vitoria(escolha, bot):
         empate = True
         ganhou = 0
         return empate, ganhou
-    elif escolha == "sair" or escolha == "exit":
-        sair = True
-        return sair
     return ganhou
     
 
