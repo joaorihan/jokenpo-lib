@@ -1,6 +1,5 @@
 import joklib
 
-escolha = ""
 jogando = True
 pontos_player = 0
 pontos_bot = 0

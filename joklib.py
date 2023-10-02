@@ -1,15 +1,15 @@
 
 def jogada_bot():
     import random
-    joken = ("pedra" , "papel", "tesoura")
+    lista = ("pedra" , "papel", "tesoura")
     bot = 0
-    bot = random.choice(joken)
+    bot = random.choice(lista)
     print(f"\nA escolha do Bot foi {bot}")
     return bot
 
 def verif_vitoria(escolha, bot):
-    empate = 0
     ganhou = 0
+    empate = False
     if escolha== "papel" and bot == "pedra":
         print("\nVocê Ganhou!")
         ganhou = True
