@@ -1,3 +1,8 @@
-# jokenpo-lib
+# Jokenpô
+Feito como estudo para FIAP
 
-mete os 2 arquivo na mesma pasta e roda o jogo.py
+# Como jogar?
+Basta rodar o arquivo `jogo.py`, após a clonagem do repositório
+
+
+## Este repositório não é mais mantido
